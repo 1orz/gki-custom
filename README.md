@@ -4,7 +4,7 @@ Enable LXC, Docker support for GKI Kernel
 
 # Build
 
-### Build use action
+### Build with action
 
 Fork repo and run new workflow
 
