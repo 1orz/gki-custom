@@ -50,7 +50,7 @@ cp ./gki-custom/config/gki_defconfig-android12-5.10 ./android-kernel/common/arch
 Patch
 
 ```bash
-git apply -v ../../gki-custom/patches/*.patch
+git apply -v ../../gki-custom/patches/android12-5.10/*.patch
 ```
 
 Save
