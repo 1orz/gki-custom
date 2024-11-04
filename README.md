@@ -40,7 +40,8 @@ CONFIG_CGROUP_DEVICE=y
 CONFIG_CGROUP_FREEZER=y
 ```
 
-You can also use this
+You can also use this </br>
+**Only available android12-5.10**
 
 ```bash
 cp ./gki-custom/config/gki_defconfig-android12-5.10 ./android-kernel/common/arch/arm64/configs/gki_defconfig
