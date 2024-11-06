@@ -2,13 +2,18 @@
 
 Enable LXC, Docker support for GKI Kernel
 
-# Build
 
-### Build with action
+### Notice
+Currently only supports android12-5.10
+
+
+### Build
+
+#### Build with action
 
 Fork repo and run new workflow
 
-### Manual Build
+#### Manual Build
 
 Sync Sources</br>
 Reference KernelSU [how to build](https://kernelsu.org/guide/how-to-build.html)
@@ -73,6 +78,12 @@ Download [gki-release-builds](https://source.android.com/docs/core/architecture/
 ./tools/mkbootimg/unpack_bootimg.py --boot_img path/to/img
 ./tools/mkbootimg/mkbootimg.py --header_version 4 --kernel path/to/Image --ramdisk path/to/ramdisk --os_version [OS_VERSION] --os_patch_level [OS_PATCH_LEVEL] -o path/to/img
 ```
+
+
+### Contribute
+
+Support for other release GKI
+
 
 # Credits
 
